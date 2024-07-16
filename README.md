@@ -12,3 +12,8 @@ Our 2 main goals:
  -         grubhub
  -         doordash
  -         ubereats
+
+Mobile - easy layout
+ - streamline connection to itsacheckmate / spoton. Should be able to buy from doordash OR from Spoton(ie Annie's side)
+![unnamed](https://github.com/user-attachments/assets/97954292-c266-483c-bfc5-ee1c30cfd002)
+

@@ -30,7 +30,10 @@
         <meta property="og:type" content="website">
     
 
-    
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!--Annie's CSS-->
+        <link rel="stylesheet" href="styles.css">
     
         <meta property="twitter:title" content="Annie&#39;s Cafe | Home">
         
@@ -39,8 +42,6 @@
         
         
         <meta property="twitter:card" content="summary">
-        
-    
         
         
         <meta itemprop="title" content="Annie&#39;s Cafe | Home">
@@ -72,11 +73,51 @@
     </head>
     <body>
         <header>
-            
-            <nav>
+            <!--Start of the hamburger navigation icon-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Annie's</a>
+                <button id="hamButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"  aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> <!--This Hyperlink is recursive so it does nothing—no point in reloading the same webpage-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a> <!-- TODO: Add Menu Webpage Hyperlink-->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <!-- TODO: Add Catering Webpage Hyperlink-->
+                                Takeout
+                            </a>
+                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                            <a class="nav-link" href="#"><img src="uber-eats.svg" alt="UberEats Logo" class="logo"></a> <!--TODO: add itsacheckmate link to UberEats-->
+                            </li>
+                        
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#"><img src="doordash-1.svg" alt="DoorDash Logo" class="logo"></a> <!--TODO: add itsacheckmate link to DoorDash-->
+                            </li>  
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#"><img src="grubhub-1.svg"GrubHub Logo" class="logo"></a> <!--TODO: add itsacheckmate link to GrubHub-->
+                            </li>
+                        </li> 
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a> <!-- TODO: Add Contact Us Webpage Hyperlink-->
+                        </li>
+                    </ul>
+                </div>
 
             </nav>
         </header>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="ann-script.js"></script>
 
         <main>
 
